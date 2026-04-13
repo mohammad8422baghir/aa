@@ -77,7 +77,8 @@ select_release_artifact() {
         URL="https://github.com/masterking32/MasterDnsVPN/releases/latest/download/MasterDnsVPN_Server_Linux-Legacy_AMD64.zip"
         PREFIX="MasterDnsVPN_Server_Linux-Legacy_AMD64"
       else
-        URL="https://github.com/masterking32/MasterDnsVPN/releases/latest/download/MasterDnsVPN_Server_Linux_AMD64.zip"
+        # لینک در این خط طبق درخواست شما تغییر یافت
+        URL="https://github.com/masterking32/MasterDnsVPN/releases/download/v2026.04.11.044523-0639f8b/MasterDnsVPN_Server_Linux_AMD64.zip"
         PREFIX="MasterDnsVPN_Server_Linux_AMD64"
       fi
       ;;
@@ -114,13 +115,13 @@ else
 fi
 
 echo -e "${MAGENTA}${BOLD}"
-echo "  __  __           _             _____  _   _  _____ "
-echo " |  \/  |         | |           |  __ \| \ | |/ ____|"
+echo "  __  __            _             _____  _   _  _____ "
+echo " |  \/  |          | |           |  __ \| \ | |/ ____|"
 echo " | \  / | __ _ ___| |_ ___ _ __ | |  | |  \| | (___  "
 echo " | |\/| |/ _\` / __| __/ _ \ '__|| |  | | . \ |\___ \ "
 echo " | |  | | (_| \__ \ ||  __/ |   | |__| | |\  |____) |"
 echo " |_|  |_|\__,_|___/\__\___|_|   |_____/|_| \_|_____/ "
-echo -e "           MasterDnsVPN Server Auto-Installer${NC}"
+echo -e "            MasterDnsVPN Server Auto-Installer${NC}"
 echo -e "${CYAN}------------------------------------------------------${NC}"
 
 TMP_LOG="init_logs.tmp"
